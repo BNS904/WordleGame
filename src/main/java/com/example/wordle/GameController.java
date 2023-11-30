@@ -376,12 +376,10 @@ public class GameController {
     private void gameLost() {
         char[] winningWordCharArray= winningWord.toCharArray();
 
-        rowList.forEach(ArrayList -> {
-            ArrayList.forEach(textField -> {
-                textField.setText("");
-                textField.setStyle("-fx-background-color: white; -fx-text-fill: black");
-            });
-        });
+        rowList.forEach(ArrayList -> ArrayList.forEach(textField -> {
+            textField.setText("");
+            textField.setStyle("-fx-background-color: white; -fx-text-fill: black");
+        }));
 
         for(int i = 0; i < 5; i++) {
             rowList.get(rowListCounter).get(i).setText(String.valueOf(winningWordCharArray[i]));
