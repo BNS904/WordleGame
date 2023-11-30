@@ -6,7 +6,7 @@ Team: Gravepoint Studios
 # What am I building?
 The goal of this program is to create a basic game of Wordle. Worlde is a spelling game in which you are given six tries to guess a five-letter word. With each guess you are given hints about the letters of the correct word, these are shown as the colors for each text cell. Green means it is the correct letter in the correct position and yellow means it is the correct letter but not in the right position.
 
-# Why am I building a TD game?
+# Why am I building a Worlde?
 I am building this a form of entertainment for people who enjoy playing word games such as Wordle. This project also serves as a steppingstone for my work on making programs/games with GUI in Java. 
 
 # Plan and going forward
