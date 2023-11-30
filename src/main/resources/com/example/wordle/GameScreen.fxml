@@ -1,14 +1,277 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="$CONTROLLER_NAME$"
-            prefHeight="400.0" prefWidth="600.0" >
-
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wordle.GameController">
+   <children>
+      <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="534.0" prefHeight="75.0" prefWidth="680.0" spacing="10.0">
+         <children>
+            <Button fx:id="qKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="46.0" text="Q">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="wKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="46.0" text="W">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="eKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="40.0" text="E">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="rKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="40.0" text="R">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="tKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="40.0" text="T">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="yKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="46.0" text="Y">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="uKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="46.0" text="U">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="iKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="46.0" text="I">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="oKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="46.0" text="O">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="pKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="46.0" text="P">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="609.0" prefHeight="75.0" prefWidth="680.0" spacing="10.0">
+         <children>
+            <Button fx:id="aKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="45.0" text="A">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="sKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="45.0" text="S">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="dKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="45.0" text="D">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="fKey" alignment="CENTER" mnemonicParsing="false" prefHeight="70.0" prefWidth="45.0" text="F">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="gKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="45.0" text="G">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="hKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="45.0" text="H">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="jKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="45.0" text="J">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="kKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="45.0" text="K">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="lKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="45.0" text="L">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="684.0" prefHeight="75.0" prefWidth="680.0" spacing="14.0">
+         <children>
+            <Button fx:id="enterKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="45.0" text="Enter" />
+            <Button fx:id="zKey" minHeight="70.0" mnemonicParsing="false" prefWidth="45.0" text="Z">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button minHeight="70.0" mnemonicParsing="false" prefWidth="45.0" text="X" fx:id="xKey">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="cKey" alignment="CENTER" mnemonicParsing="false" prefHeight="70.0" prefWidth="45.0" text="C">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="vKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="45.0" text="V">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="bKey" minHeight="70.0" mnemonicParsing="false" prefWidth="45.0" text="B">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="nKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="45.0" text="N">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="mKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="45.0" text="M">
+               <font>
+                  <Font size="20.0" />
+               </font></Button>
+            <Button fx:id="backKey" mnemonicParsing="false" prefHeight="70.0" prefWidth="45.0" text="Back" />
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" layoutX="46.0" layoutY="37.0" prefHeight="100.0" prefWidth="608.0" spacing="5.0">
+         <children>
+            <TextField fx:id="cell1" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" promptText="H">
+               <font>
+                  <Font size="32.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="cell2" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" promptText="E">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell3" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" promptText="L">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell4" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" promptText="L">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell5" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" promptText="O">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" layoutX="46.0" layoutY="120.0" prefHeight="100.0" prefWidth="608.0" spacing="5.0">
+         <children>
+            <TextField fx:id="cell6" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell7" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell8" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell9" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell10" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" layoutX="46.0" layoutY="199.0" prefHeight="100.0" prefWidth="608.0" spacing="5.0">
+         <children>
+            <TextField fx:id="cell11" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell12" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell13" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell14" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell15" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" layoutX="46.0" layoutY="282.0" prefHeight="100.0" prefWidth="608.0" spacing="5.0">
+         <children>
+            <TextField fx:id="cell16" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell17" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell18" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell19" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell20" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" layoutX="46.0" layoutY="365.0" prefHeight="100.0" prefWidth="608.0" spacing="5.0">
+         <children>
+            <TextField fx:id="cell21" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell22" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell23" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell24" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell25" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+         </children>
+      </HBox>
+      <HBox alignment="TOP_CENTER" layoutX="46.0" layoutY="450.0" prefHeight="100.0" prefWidth="608.0" spacing="5.0">
+         <children>
+            <TextField fx:id="cell26" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell27" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell28" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell29" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+            <TextField fx:id="cell30" prefHeight="70.0" prefWidth="70.0">
+               <font>
+                  <Font size="32.0" />
+               </font></TextField>
+         </children>
+      </HBox>
+      <Button fx:id="resetButton" layoutX="631.0" layoutY="487.0" mnemonicParsing="false" text="Reset" />
+   </children>
 </AnchorPane>
