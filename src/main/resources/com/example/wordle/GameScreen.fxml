@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17.0.6" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wordle.GameController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.wordle.GameController">
    <children>
       <HBox alignment="TOP_CENTER" layoutX="10.0" layoutY="534.0" prefHeight="75.0" prefWidth="680.0" spacing="10.0">
          <children>
@@ -129,24 +129,24 @@
       </HBox>
       <HBox alignment="TOP_CENTER" layoutX="46.0" layoutY="37.0" prefHeight="100.0" prefWidth="608.0" spacing="5.0">
          <children>
-            <TextField fx:id="cell1" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" promptText="H">
+            <TextField fx:id="cell1" alignment="CENTER" prefHeight="70.0" prefWidth="70.0">
                <font>
                   <Font size="32.0" />
                </font>
             </TextField>
-            <TextField fx:id="cell2" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" promptText="E">
+            <TextField fx:id="cell2" alignment="CENTER" prefHeight="70.0" prefWidth="70.0">
                <font>
                   <Font size="32.0" />
                </font></TextField>
-            <TextField fx:id="cell3" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" promptText="L">
+            <TextField fx:id="cell3" alignment="CENTER" prefHeight="70.0" prefWidth="70.0">
                <font>
                   <Font size="32.0" />
                </font></TextField>
-            <TextField fx:id="cell4" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" promptText="L">
+            <TextField fx:id="cell4" alignment="CENTER" prefHeight="70.0" prefWidth="70.0">
                <font>
                   <Font size="32.0" />
                </font></TextField>
-            <TextField fx:id="cell5" alignment="CENTER" prefHeight="70.0" prefWidth="70.0" promptText="O">
+            <TextField fx:id="cell5" alignment="CENTER" prefHeight="70.0" prefWidth="70.0">
                <font>
                   <Font size="32.0" />
                </font></TextField>
