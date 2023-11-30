@@ -15,3 +15,6 @@ To make this game a reality there are a few various components that must be put 
 
 # Instructions
 Just run the program for the game window to appear and you can start inputting letters with the on-screen keyboard. When ready to submit a guess just hit the enter button and if it turns all green then you have guessed the correct word, otherwise the cells will light up colors based on your hints and move on to the next row. If on the last row you don't guess correctly the word will automatically switch to what the correct word was. When done with a game just click the reset button to start another round and have fun :)
+
+# Video Demo
+https://www.youtube.com/watch?v=4xQD1uetqZc
